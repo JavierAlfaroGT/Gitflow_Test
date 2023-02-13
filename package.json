@@ -2,6 +2,9 @@
   "name": "gitflow_test",
   "version": "1.0.0",
   "description": "",
+<<<<<<< HEAD
+  "main": "index.js",
+=======
   "main": "main.js",
   "dependencies": {
     "accepts": "^1.3.8",
@@ -61,6 +64,7 @@
     "utils-merge": "^1.0.1",
     "vary": "^1.1.2"
   },
+>>>>>>> develop
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -74,5 +78,12 @@
   "bugs": {
     "url": "https://github.com/JavierAlfaroGT/Gitflow_Test/issues"
   },
+<<<<<<< HEAD
+  "homepage": "https://github.com/JavierAlfaroGT/Gitflow_Test#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+=======
   "homepage": "https://github.com/JavierAlfaroGT/Gitflow_Test#readme"
+>>>>>>> develop
 }
