@@ -20,3 +20,9 @@ app.listen(//ojo con el puerto
     7000,
     ()=>console.log('Server on port', 7000)
 )
+
+//uso lo de la rama feature/info
+app.get('/info-201700644',function(req,res){//GET
+    const result = "Tarea1 AyD1"
+    res.send(result)
+})
