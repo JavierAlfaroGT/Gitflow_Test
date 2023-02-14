@@ -12,7 +12,7 @@ app.use(express.json())//para que no de problemas
 
 
 app.post('/calculadora-201700644',function(req,res){//POST
-    const result = {"suma":5+5} 
+    const result = {"suma":5*5} //correccion
     res.send(result)
 })
 
